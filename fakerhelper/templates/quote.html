@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    查询价格
+{% endblock %}
+
+{% block main %}
+
+    <form action = "/quote" method = "post">
+        
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="symbol" placeholder="输入股票代码" type="text">
+        </div>
+        
+        <button class="btn btn-primary" type="submit">查询</button>
+      
+    </form>
+    <h5 style ="color:white">.. </h5>
+    <p1>{{result}}</p1>
+     <footer class="small text-center text-muted">
+            热门股票代码：
+    </footer> 
+    <footer class="small text-center text-muted">
+            阿里巴巴：BABA，
+            蔚来：NIO，
+            谷歌：GOOG，
+            苹果：AAPL，
+            BILIBILI：BILI
+    </footer>
+
+
+
+{% endblock %}

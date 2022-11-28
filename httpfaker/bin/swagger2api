@@ -1,0 +1,5 @@
+#!/usr/bin/env python
+from httpfaker.cli import swagger2api
+
+if __name__ == '__main__':
+    swagger2api()

@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    买入
+{% endblock %}
+
+{% block main %}
+
+    <form action = "/buy" method = "post">
+        
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="symbol" placeholder="输入股票代码" type="text">
+        </div>
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="share" placeholder="购入股数" type="text">
+        </div>
+        
+        <button class="btn btn-primary" type="submit">买入</button>
+      
+    </form>
+{% endblock %}

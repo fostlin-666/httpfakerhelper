@@ -1,0 +1,16 @@
+import: []
+env: {}
+request:
+  path: /download/file
+  method:
+  - GET
+  data: null
+  args:
+    file_name: 74281076.pdf
+logic:
+  step1: "{{ print('file_name: ',  request.args.file_name) }}"
+response:
+  # 警告1：当调用方法的返回类型为非字符对象（str,dict,list, tuple）时，不要使用jinja2模板来渲染调用；使用engine参数来调用。否则对象会变成字符串...
+  # 警告2：当调用方法的返回类型为非字符对象（str,dict,list, tuple）时，不要使用使用引用，直接赋值给对象即可。使用引用会通过jinja2来渲染，会将任意对象转为str...
+  # 由于download方法返回对象是一个Response对象，所以不能直接使用jinja2模板渲染（jinja2模板会将任意对象转为string）
+  engine: "download('{{ request.args.file_name }}')"

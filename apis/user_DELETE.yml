@@ -1,0 +1,20 @@
+import: []
+env: {}
+request:
+  path: /user
+  method:
+    - DELETE
+  json:
+    username: wangji
+    password: '123456'
+  args:
+    userid: 921iowqksmla
+logic: {}
+response:
+  headers:
+    Content-Type: application/json
+  body:
+    code: 200
+    msg: 请求成功
+    respData: {}
+  status_code: 200

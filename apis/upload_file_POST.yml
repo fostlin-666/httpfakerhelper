@@ -1,0 +1,16 @@
+import: []
+env: {}
+request:
+  path: /upload/file
+  method:
+    - POST
+  data: null
+  args: {}
+logic:
+  step1: "{{ faker.save_file(request.files.get('file')) }}"
+  step2: "{{ print(logic.step1) }}"
+response:
+  headers:
+    Content-Type: application/json
+  body: '{{ logic.step1 }}'
+  status_code: 200

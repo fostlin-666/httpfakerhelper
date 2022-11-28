@@ -1,0 +1,37 @@
+{% extends "layout.html"%}
+
+{% block title %}
+    交易历史
+{% endblock %}
+
+{% block main %}
+      <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>代码</th>
+                <th>股数</th>
+                <th>价格</th>
+                <th>每股</th>
+                <th>时间</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for i in history %}
+                
+                <tr>
+                    <td>{{i.symbol}}</td>
+                    <td>{{i.share}}</td>
+                    <td>${{"{:.2f}".format(i.price)}}</td>
+                    <td>${{"{:.2f}".format(i.price / i.share) | float | abs}}</td>
+                    <td>{{i.time}}</td>
+ 
+                </tr>
+            
+            {% endfor %}
+            
+        </tbody>
+    </table>
+
+
+{% endblock %}

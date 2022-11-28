@@ -1,0 +1,16 @@
+import: []
+env: {}
+request:
+  path: /test
+  method:
+  - POST
+  data:
+    username: fostlin
+    password: '123456'
+  args: {}
+logic: {}
+response:
+  headers:
+    Content-Type: application/json
+  body: null
+  status_code: 200

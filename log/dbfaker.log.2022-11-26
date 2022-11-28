@@ -1,0 +1,24 @@
+2022-11-26 00:19:00,435 [INFO]   [httpfaker/common/logger.py] [line:55]: 接口注册： {'path': '/upload/file', 'method': ['POST'], 'data': None, 'args': {}}
+2022-11-26 00:19:00,436 [INFO]   [httpfaker/common/logger.py] [line:55]: 接口注册： {'path': '/api/login', 'method': ['POST'], 'data': None, 'json': {'username': 'xiaoming', 'password': 123456}, 'args': {'type': 'mobile'}}
+2022-11-26 00:19:00,436 [INFO]   [httpfaker/common/logger.py] [line:55]: 接口注册： {'path': '/download/file', 'method': ['GET'], 'data': None, 'args': {'file_name': '74281076.pdf'}}
+2022-11-26 00:19:00,437 [INFO]   [httpfaker/common/logger.py] [line:55]: 接口注册： {'path': '/test', 'method': ['POST'], 'data': {'username': 'fostlin', 'password': 123456}, 'args': {}}
+2022-11-26 00:19:00,437 [INFO]   [httpfaker/common/logger.py] [line:55]: 接口注册： {'path': '/user', 'method': ['GET'], 'data': None, 'args': {'userid': '921iowqksmla'}}
+2022-11-26 00:19:00,437 [INFO]   [httpfaker/common/logger.py] [line:55]: 接口注册： {'path': '/quote/', 'method': ['GET'], 'data': None, 'args': {'symbol': 'baba'}}
+2022-11-26 00:19:00,437 [INFO]   [httpfaker/common/logger.py] [line:55]: 接口注册： {'path': '/test', 'method': ['GET'], 'data': None, 'args': {}}
+2022-11-26 00:19:00,437 [INFO]   [httpfaker/common/logger.py] [line:55]: 接口注册： {'path': '/user', 'method': ['DELETE'], 'json': {'username': 'wangji', 'password': 123456}, 'args': {'userid': '921iowqksmla'}}
+2022-11-26 00:28:05,728 [INFO]   [httpfaker/common/logger.py] [line:55]: 接口注册： {'path': '/upload/file', 'method': ['POST'], 'data': None, 'args': {}}
+2022-11-26 00:28:05,729 [INFO]   [httpfaker/common/logger.py] [line:55]: 接口注册： {'path': '/api/login', 'method': ['POST'], 'data': None, 'json': {'username': 'xiaoming', 'password': 123456}, 'args': {'type': 'mobile'}}
+2022-11-26 00:28:05,729 [INFO]   [httpfaker/common/logger.py] [line:55]: 接口注册： {'path': '/download/file', 'method': ['GET'], 'data': None, 'args': {'file_name': '74281076.pdf'}}
+2022-11-26 00:28:05,729 [INFO]   [httpfaker/common/logger.py] [line:55]: 接口注册： {'path': '/test', 'method': ['POST'], 'data': {'username': 'fostlin', 'password': 123456}, 'args': {}}
+2022-11-26 00:28:05,729 [INFO]   [httpfaker/common/logger.py] [line:55]: 接口注册： {'path': '/user', 'method': ['GET'], 'data': None, 'args': {'userid': '921iowqksmla'}}
+2022-11-26 00:28:05,729 [INFO]   [httpfaker/common/logger.py] [line:55]: 接口注册： {'path': '/quote/', 'method': ['GET'], 'data': None, 'args': {'symbol': 'baba'}}
+2022-11-26 00:28:05,729 [INFO]   [httpfaker/common/logger.py] [line:55]: 接口注册： {'path': '/test', 'method': ['GET'], 'data': None, 'args': {}}
+2022-11-26 00:28:05,730 [INFO]   [httpfaker/common/logger.py] [line:55]: 接口注册： {'path': '/user', 'method': ['DELETE'], 'json': {'username': 'wangji', 'password': 123456}, 'args': {'userid': '921iowqksmla'}}
+2022-11-26 00:28:40,629 [INFO]   [httpfaker/common/logger.py] [line:55]: 接口注册： {'path': '/upload/file', 'method': ['POST'], 'data': None, 'args': {}}
+2022-11-26 00:28:40,629 [INFO]   [httpfaker/common/logger.py] [line:55]: 接口注册： {'path': '/api/login', 'method': ['POST'], 'data': None, 'json': {'username': 'xiaoming', 'password': 123456}, 'args': {'type': 'mobile'}}
+2022-11-26 00:28:40,629 [INFO]   [httpfaker/common/logger.py] [line:55]: 接口注册： {'path': '/download/file', 'method': ['GET'], 'data': None, 'args': {'file_name': '74281076.pdf'}}
+2022-11-26 00:28:40,629 [INFO]   [httpfaker/common/logger.py] [line:55]: 接口注册： {'path': '/test', 'method': ['POST'], 'data': {'username': 'fostlin', 'password': 123456}, 'args': {}}
+2022-11-26 00:28:40,629 [INFO]   [httpfaker/common/logger.py] [line:55]: 接口注册： {'path': '/user', 'method': ['GET'], 'data': None, 'args': {'userid': '921iowqksmla'}}
+2022-11-26 00:28:40,629 [INFO]   [httpfaker/common/logger.py] [line:55]: 接口注册： {'path': '/quote/', 'method': ['GET'], 'data': None, 'args': {'symbol': 'baba'}}
+2022-11-26 00:28:40,630 [INFO]   [httpfaker/common/logger.py] [line:55]: 接口注册： {'path': '/test', 'method': ['GET'], 'data': None, 'args': {}}
+2022-11-26 00:28:40,630 [INFO]   [httpfaker/common/logger.py] [line:55]: 接口注册： {'path': '/user', 'method': ['DELETE'], 'json': {'username': 'wangji', 'password': 123456}, 'args': {'userid': '921iowqksmla'}}

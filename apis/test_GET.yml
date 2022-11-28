@@ -1,0 +1,16 @@
+import: []
+env: {}
+request:
+  path: /test
+  method:
+  - GET
+  data: null
+  args: {}
+logic: {}
+response:
+  headers:
+    Content-Type: None
+  body: {
+
+  }
+  status_code: 200

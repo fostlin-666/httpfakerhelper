@@ -1,0 +1,71 @@
+import: []
+env: {}
+request:
+  path: /quote/
+  method:
+  - GET
+  data: null
+  args:
+    symbol: baba
+logic: {}
+response:
+  headers:
+    Content-Type: None
+  body:
+    avgTotalVolume: 30227711
+    calculationPrice: tops
+    change: -2.805
+    changePercent: -0.03573
+    close: null
+    closeSource: official
+    closeTime: null
+    companyName: Alibaba Group Holding Ltd - ADR
+    currency: USD
+    delayedPrice: null
+    delayedPriceTime: null
+    extendedChange: null
+    extendedChangePercent: null
+    extendedPrice: null
+    extendedPriceTime: null
+    high: null
+    highSource: 15 minute delayed price
+    highTime: 1669392522588
+    iexAskPrice: 75.72
+    iexAskSize: 248
+    iexBidPrice: 74.92
+    iexBidSize: 101
+    iexClose: 75.695
+    iexCloseTime: 1669393390388
+    iexLastUpdated: 1669393390388
+    iexMarketPercent: 0.026664801263818295
+    iexOpen: 75.455
+    iexOpenTime: 1669386609173
+    iexRealtimePrice: 75.695
+    iexRealtimeSize: 1
+    iexVolume: 226042
+    lastTradeTime: 1669393390388
+    latestPrice: 75.695
+    latestSource: IEX real time price
+    latestTime: 11:23:10 AM
+    latestUpdate: 1669393390388
+    latestVolume: null
+    low: null
+    lowSource: 15 minute delayed price
+    lowTime: 1669386846805
+    marketCap: 200450839443
+    oddLotDelayedPrice: null
+    oddLotDelayedPriceTime: null
+    open: null
+    openTime: null
+    openSource: official
+    peRatio: 33.2
+    previousClose: 78.5
+    previousVolume: 19032677
+    primaryExchange: NEW YORK STOCK EXCHANGE INC.
+    symbol: BABA
+    volume: null
+    week52High: 138.7
+    week52Low: 58.01
+    ytdChange: -0.37489996380166685
+    isUSMarketOpen: true
+  status_code: 200

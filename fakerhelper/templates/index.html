@@ -1,0 +1,45 @@
+{% extends "layout.html"%}
+
+{% block title %}
+    主页面
+{% endblock %}
+
+{% block main %}
+      <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>股票代码</th>
+                <th>公司</th>
+                <th>持股</th>
+                <th>最新价格（每股）</th>
+                <th>总价</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="4"></td>
+                <td>您目前身价：${{total_value}}💰💰</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            {% for i in stock %}
+                
+                <tr>
+                    <td>{{i.symbol}}</td>
+                    <td>{{i.name}}</td>
+                    <td>{{i.share}}</td>
+                    <td>${{"{:.2f}".format(i.latest_price)}}</td>
+                    <td>${{"{:.2f}".format(i.latest_price * i.share)}}</td>
+                </tr>
+            
+            {% endfor %}
+            
+            <tr>
+                <td colspan="4">账户余额</td>
+                <td>${{cash}}💰</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+{% endblock %}
